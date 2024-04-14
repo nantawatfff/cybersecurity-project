@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    image: nantawat/app:1.1.0
+    image: strapi/app:1.1.0
     container_name: tct-32-app
     ports:
       - ${APP_PORTS}
